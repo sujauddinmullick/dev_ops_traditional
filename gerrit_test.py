@@ -87,7 +87,7 @@ if 'Ubuntu' not in host_os:
     print 'test4'
 
     #replace gerrit.config with correct configuration like canonical url,auth,port etc.
-    scp.put('ldap_devops/gerrit.config','/home/gerrit2/gerrit/etc/')
+    scp.put('devops_config/gerrit/gerrit.config','/home/gerrit2/gerrit/etc/')
 
     #time to restart the gerrit server
     stdin, stdout, stderr = client1.exec_command('su - gerrit2 -c \'/home/gerrit2/gerrit/bin/gerrit.sh restart\'')
