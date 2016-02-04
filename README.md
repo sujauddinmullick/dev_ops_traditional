@@ -34,7 +34,7 @@ How to run the individual script:
 5.  Run jenkins installation and configuration script.
     python jenkins_test.py <jenkins_host_ip> <jenkins_http_url>
 6.  Create and add jenkins ssh key against the gerrit account. Run below comamnd in jenkins machine.
-    sudo -u jenkins ssh-keygen
-    cat /var/lib/jenkins/.ssh/id_rsa.pub | ssh -p 29418 admin@gerrit_host gerrit set-account jenkins --active --add-ssh-key -
+    1.  sudo -u jenkins ssh-keygen
+    2.  cat /var/lib/jenkins/.ssh/id_rsa.pub | ssh -p 29418 admin@gerrit_host gerrit set-account jenkins --active --add-ssh-key -
 
 
