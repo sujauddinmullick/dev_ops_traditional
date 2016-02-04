@@ -6,7 +6,7 @@ All this tool will be using LDAP as authentication protocol.
 Prerequisite: 
 
 1.  Host OS: CentOS7
-2.  Make sure that LDAP server is running and configured with multiple devops account i.e
+2.  Make sure that LDAP server is configured and running with multiple devops account i.e
   admin,developer,reviewer etc. for this purpose please have a look at another repo called "ldap_vagrant"
 
 How to run the individual script:
