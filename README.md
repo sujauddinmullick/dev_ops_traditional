@@ -14,7 +14,7 @@ How to run the individual script:
 1.  Modify gerrit.config file under "devops_config/gerrit" dir for gerrit configuration.
     1.  modify canonical url
     2.  modify http or https port
-    3.  modify authtype, if ldap the provide relevant details.
+    3.  modify authtype, if authtype is ldap then provide relevant ldap server details.
     4.  modify smtp server field etc.
     
 2.  Run gerrit_installation script.
