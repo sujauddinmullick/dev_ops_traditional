@@ -129,7 +129,7 @@ def configure_gerritAccessControl(admin,email,url):
         prog = subprocess.Popen('git checkout -b config FETCH_HEAD', stdout=subprocess.PIPE, stderr=subprocess.PIPE,shell=True)
         print os.getcwd()
  
-        prog = subprocess.Popen('/bin/cp -rf /home/suja/DevOP_automation/devops_config/gerrit/project.config .', stdout=subprocess.PIPE, stderr=subprocess.PIPE,shell=True)
+        prog = subprocess.Popen('/bin/cp -rf devops_config/gerrit/project.config .', stdout=subprocess.PIPE, stderr=subprocess.PIPE,shell=True)
         prog = subprocess.Popen('git add . ', stdout=subprocess.PIPE, stderr=subprocess.PIPE,shell=True)
         prog = subprocess.Popen('git commit -m \"config ACL added from script\" ', stdout=subprocess.PIPE, stderr=subprocess.PIPE,shell=True)
         prog = subprocess.Popen('git push origin HEAD:refs/meta/config ', stdout=subprocess.PIPE, stderr=subprocess.PIPE,shell=True)
