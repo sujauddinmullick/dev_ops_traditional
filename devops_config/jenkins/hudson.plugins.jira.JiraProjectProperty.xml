@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.jira.JiraProjectProperty_-DescriptorImpl plugin="jira@2.0.3">
+  <sites>
+    <hudson.plugins.jira.JiraSite>
+      <url>http://172.30.36.156:8090/</url>
+      <useHTTPAuth>false</useHTTPAuth>
+      <userName>jenkins1_msys</userName>
+      <password>mst12345</password>
+      <supportsWikiStyleComment>false</supportsWikiStyleComment>
+      <recordScmChanges>false</recordScmChanges>
+      <userPattern>(DEM-[0-9]+)</userPattern>
+      <updateJiraIssueForAllStatus>true</updateJiraIssueForAllStatus>
+    </hudson.plugins.jira.JiraSite>
+  </sites>
+</hudson.plugins.jira.JiraProjectProperty_-DescriptorImpl>
