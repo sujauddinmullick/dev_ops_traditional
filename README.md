@@ -11,7 +11,13 @@ Prerequisite:
 
 How to run the individual script:
 
-1.  Run gerrit_installation script.
+1.  Modify gerrit.config file under "devops_config/gerrit" dir for gerrit configuration.
+    1.  modify canonical url
+    2.  modify http or https port
+    3.  modify authtype
+    4.  modify smtp server field etc.
+    
+2.  Run gerrit_installation script.
     gerrit_test.py  <gerrit_host_ip>
 
 2.  log in to gerrit GUI with admin account and add ssh key against it.
