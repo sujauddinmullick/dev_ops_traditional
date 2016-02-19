@@ -47,5 +47,4 @@ How to run the individual script:
 
 7.3 jira must be running ok.
 
-
-
+Note: Jira instance comes as a trial version for 1 months,post 1 month, same license may not work for jira instance since license is also checks db validity. So in that case we need to get a new jira instance with new license.
