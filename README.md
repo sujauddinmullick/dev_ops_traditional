@@ -37,4 +37,15 @@ How to run the individual script:
     1.  sudo -u jenkins ssh-keygen
     2.  cat /var/lib/jenkins/.ssh/id_rsa.pub | ssh -p 29418 admin@gerrit_host gerrit set-account jenkins --active --add-ssh-key -
 
+7.1  Jira part:
+
+    1. download atlassian jira bin file under devops_config/jira dir i.e.atlassian-jira-software-7.0.10-jira-7.0.10-x64.bin
+    2. modify response.var file for http port and all
+    3. modify dbconfig.xml file for mysql db name,port,db server,user and password
+    
+7.2 run jira_test.py with ip of the machine i.e python jira_test.py <jira_server>
+
+7.3 jira must be running ok.
+
+
 
